@@ -1,6 +1,6 @@
 {
   "name": "little-tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A little tool for help development debug",
   "main": "./index.js",
   "scripts": {
