@@ -2,7 +2,7 @@
   "name": "little-tool",
   "version": "1.0.0",
   "description": "A little tool for help development debug",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +12,15 @@
   },
   "author": "lufeng",
   "license": "MIT",
+  "bin": {
+    "dt": "./index.js"
+  },
   "bugs": {
     "url": "https://github.com/luf543/little-tool/issues"
   },
-  "homepage": "https://github.com/luf543/little-tool#readme"
+  "homepage": "https://github.com/luf543/little-tool#readme",
+  "dependencies": {
+    "shelljs": "^0.7.8",
+    "yargs": "^10.0.3"
+  }
 }
