@@ -1,6 +1,4 @@
-/**
- * Created by lufeng.tuniu on 2017/11/28.
- */
+#!/usr/bin/env node
 var os = require('os');
 var shell = require("shelljs");
 var argv = require('yargs')
