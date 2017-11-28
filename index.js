@@ -1,7 +1,7 @@
 /**
  * Created by lufeng.tuniu on 2017/11/28.
  */
-const os = require('os');
+var os = require('os');
 var shell = require("shelljs");
 var argv = require('yargs')
   .option('r', {
@@ -15,7 +15,6 @@ var argv = require('yargs')
   .epilog('copyright 2017')
   .argv;
 
-console.log('hello ', argv.r);
 if(argv.r){
   switch (argv.r){
     case 'n':
