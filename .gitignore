@@ -1,0 +1,14 @@
+node_modules/
+npm-debug.log
+.sass-cache/
+.idea/
+.vscode/
+dist/
+*.iml
+*.diff
+*.patch
+*.bak
+.DS_Store
+Thumbs.db
+*.log
+npm-debug*
